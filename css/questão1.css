@@ -1,0 +1,19 @@
+div{
+    
+
+        height: 200px;
+        width: 200px;
+        background-color: peru;
+      
+        
+        
+
+}
+
+body{
+      height: 750px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+}

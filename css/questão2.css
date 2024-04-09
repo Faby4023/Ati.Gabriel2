@@ -1,0 +1,43 @@
+.quadrado{
+    
+
+    height: 200px;
+    width: 200px;
+    background-color: peru;
+    transition: 2ms;
+   
+    
+  
+    
+    
+
+}
+.quadrado:hover{
+    animation: mouse 2s ease;
+
+}
+
+body{
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+
+
+@keyframes mouse {
+
+    0%{
+
+        background-color: peru
+    }
+
+    100%{
+
+        background-color: blue 
+    }
+
+}

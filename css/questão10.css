@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation: mover 2s linear;
+    position: relative;
+
+   
+    
+}
+@keyframes mover{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    100%{
+        top: -100%;
+        left: -100%;
+        width: 70px;
+        height: 70px;
+    }
+}

@@ -1,0 +1,33 @@
+div{
+     
+        height:200px;
+        width: 200px;
+        background-color: peru;
+        border-radius: 100px;
+        animation: pulse 1s  ease infinite alternate;
+      
+    }
+    
+    body{
+         height: 750px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     
+    } 
+    @keyframes pulse{
+    
+           
+    
+        50%{
+            background-color: peru;
+           transform: scale(2);
+           
+        }
+           100%{
+            background-color: peru;
+            transform: scale(1);
+
+
+}
+    }
